@@ -1,5 +1,3 @@
-# Customer-Churn-Analysis-PowerBI
-Customer churn analysis dashboard built using Power BI to identify churn trends and customer retention insights.
 # Customer Churn Analysis Dashboard
 
 Interactive Power BI dashboard analyzing customer churn patterns using the Telco Customer Churn dataset from Kaggle.
@@ -36,6 +34,9 @@ Dataset used: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/bla
 
 
 ## 🔍 Key DAX Measure
-```dax
-Churn Count = CALCULATE(COUNTROWS('WA_Fn-UseC_-Telco-Customer-Churn'), 
-              'WA_Fn-UseC_-Telco-Customer-Churn'[Churn] = "Yes")
+
+    Churn Count = CALCULATE(COUNTROWS('WA_Fn-UseC_-Telco-Customer-Churn'), 
+                  'WA_Fn-UseC_-Telco-Customer-Churn'[Churn] = "Yes")
+
+## 👤 Author
+**Omkar** | B.Tech Civil Engineering, IIT Madras | Aspiring Data Analyst
